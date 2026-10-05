@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/php-debugbar-php-debugbar",
+    "description": "Tyhp type definitions for php-debugbar/php-debugbar 3.8.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.8.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/php-debugbar-php-debugbar-impl": "~3.8.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/php-debugbar-php-debugbar-impl"
+        }
+    }
+}
